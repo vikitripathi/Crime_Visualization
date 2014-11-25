@@ -1,0 +1,4 @@
+Maharashtra  10
+Madhya Pradesh  20
+Jammu and Kashmir  50
+Karnataka  100

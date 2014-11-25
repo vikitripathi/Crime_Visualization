@@ -1,0 +1,45 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+#panel1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: calc(100%);
+	height: auto;  z-index: 10;
+}
+
+#panel2 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: calc(100%);
+	height: auto;
+	z-index: 10;
+}
+
+#panel1 .btn,#panel2 .btn{
+	position: relative;
+	float: left;
+	padding: 8px 10px;
+	width: 25%;
+	background-color: #fff;
+	color: #777;
+	font-weight: 600;
+	border: 0;
+	outline: 0;
+	margin: 0;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+
+#panel1 .btn:hover,#panel2 .btn:hover{
+  background-color: #1abc9c;
+  color: #fff;
+}

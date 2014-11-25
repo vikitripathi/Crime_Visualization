@@ -1,0 +1,5 @@
+Nagpur  6
+Delhi  4
+Calcutta  2
+Bangalore  4
+Chandigarh  7 
